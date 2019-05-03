@@ -1,0 +1,41 @@
+---
+- name: Testing
+  hosts: all
+  become: yes
+  tasks:
+    - name: Copy over jericho binary
+      win_copy: 
+        src: 'files/jer.ps1'
+        dest: '%HOMEDRIVE%/Windows/Temp/jer.ps1'
+    - name: Detonate 
+      win_command: "powershell.exe -command '%HOMEDRIVE%/Windows/Temp/jer.ps1'"
+      #args:
+      #  chdir: "C:/Program Files/Veyon"
+    - name: Remove unessary files
+      win_file:
+        name: "{{ item }}"
+        state: absent
+      with_items:
+        - "%HOMEDRIVE%/Windows/Temp/jer.ps1"
+
+# Disable UAC
+# Enable win def exclusion
+# Disable defender
+# Remove features 
+# Enable WDigestCreds
+# ForceHidden files not visble
+# Disable win updates on 7 & 10
+# Enable RDP and sticky keys
+# Enable C: with anon access
+# Enabe smb v1
+# Admin shares
+# Disable firewalls
+# Disable emet
+# Disable sec. logon
+# Enable reversable password enc for admin.
+# 3 user acc. scorebot admin guest
+# pass: Password1!
+# Disable safe boot params
+# powershell.exe -> winsystem32\ps.exe 
+#                -> win\res\ps.exe
+#

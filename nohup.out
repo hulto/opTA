@@ -1,0 +1,880 @@
+Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+2019-04-20T07:36:37.273: [INFO] Master: running
+2019-04-20T07:37:01.876: [WARN] QProcess: Destroyed while process ("ping") is still running.
+Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+2019-04-20T07:40:16.584: [ERR] CryptoCore: failed to decrypt password!
+2019-04-20T07:40:16.668: [INFO] App.Exec
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+● veyon-service.service - Veyon Service
+   Loaded: loaded (/lib/systemd/system/veyon-service.service; enabled; vendor preset: disabled)
+   Active: active (running) since Sat 2019-04-20 07:33:15 EDT; 7min ago
+     Docs: man:veyon-service(1)
+ Main PID: 3417 (veyon-service)
+    Tasks: 11 (limit: 4656)
+   Memory: 36.2M
+   CGroup: /system.slice/veyon-service.service
+           ├─3417 /usr/bin/veyon-service
+           ├─3423 /usr/bin/veyon-server
+           ├─3424 /usr/bin/veyon-worker {8e997d84-ebb9-430f-8f72-d45d9821963d}
+           └─3622 /usr/bin/veyon-worker {e4b6e743-1f5b-491d-9364-e091086200f4}
+
+Apr 20 07:33:15 scoringengine systemd[1]: Started Veyon Service.
+Apr 20 07:33:15 scoringengine veyon-service[3417]: Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.583: [INFO] Starting server for new session "/org/freedesktop/login1/session/_32" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Apr 20 07:33:15 scoringengine veyon-service[3417]: 2019-04-20T07:33:15.589: [INFO] Stopping server for removed session "/org/freedesktop/login1/session/_32"
+Apr 20 07:33:18 scoringengine veyon-service[3417]: 2019-04-20T07:33:18.614: [WARN] Server for session "/org/freedesktop/login1/session/_32" still running - killing now
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.615: [WARN] QProcess: Destroyed while process ("/usr/bin/veyon-server") is still running.
+Apr 20 07:33:19 scoringengine veyon-service[3417]: 2019-04-20T07:33:19.618: [INFO] Starting server for new session "/org/freedesktop/login1/session/c1" with display "" at seat "/org/freedesktop/login1/seat/seat0"
+Adding plugin search path "/usr/lib/x86_64-linux-gnu/veyon"
+PluginManager: discovered plugin "LinuxPlatformPlugin" at "/usr/lib/x86_64-linux-gnu/veyon/linux-platform.so"
+2019-04-20T09:27:59.306: [INFO] Master: running
+2019-04-20T09:28:25.230: [WARN] QProcess: Destroyed while process ("ping") is still running.
+2019-04-20T10:45:37.928: [WARN] ---
+2019-04-20T10:45:37.928: [WARN] Last message repeated 600 times
+2019-04-20T10:45:37.928: [WARN] ---
+2019-04-20T10:45:37.928: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T10:45:37.928: [WARN] ---
+2019-04-20T10:45:37.928: [WARN] Last message repeated 1 times
+2019-04-20T10:45:37.928: [WARN] ---
+2019-04-20T10:45:37.928: [WARN] VariantStream: none or invalid data read
+2019-04-20T10:45:37.928: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f049fff7700 challenge size mismatch!
+2019-04-20T11:16:27.393: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:16:27.393: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:16:27.393: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:16:43.857: [WARN] ---
+2019-04-20T11:16:43.857: [WARN] Last message repeated 1 times
+2019-04-20T11:16:43.858: [WARN] ---
+2019-04-20T11:16:43.858: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:16:43.858: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:16:53.905: [WARN] ---
+2019-04-20T11:16:53.905: [WARN] Last message repeated 2 times
+2019-04-20T11:16:53.905: [WARN] ---
+2019-04-20T11:16:53.905: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:16:53.905: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:01.658: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:01.658: [WARN] ---
+2019-04-20T11:17:01.658: [WARN] Last message repeated 1 times
+2019-04-20T11:17:01.658: [WARN] ---
+2019-04-20T11:17:01.658: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:01.658: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:07.431: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:07.431: [WARN] ---
+2019-04-20T11:17:07.431: [WARN] Last message repeated 1 times
+2019-04-20T11:17:07.431: [WARN] ---
+2019-04-20T11:17:07.431: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:07.431: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:09.519: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:09.520: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:09.520: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:11.464: [WARN] ---
+2019-04-20T11:17:11.464: [WARN] Last message repeated 2 times
+2019-04-20T11:17:11.464: [WARN] ---
+2019-04-20T11:17:11.464: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:11.464: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:14.555: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:14.555: [WARN] ---
+2019-04-20T11:17:14.555: [WARN] Last message repeated 1 times
+2019-04-20T11:17:14.556: [WARN] ---
+2019-04-20T11:17:14.556: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:14.556: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:17.402: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:17.402: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:17.402: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:23.311: [WARN] ---
+2019-04-20T11:17:23.315: [WARN] Last message repeated 1 times
+2019-04-20T11:17:23.315: [WARN] ---
+2019-04-20T11:17:23.315: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:23.319: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:30.392: [WARN] ---
+2019-04-20T11:17:30.393: [WARN] Last message repeated 1 times
+2019-04-20T11:17:30.393: [WARN] ---
+2019-04-20T11:17:30.393: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:30.393: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:36.132: [WARN] ---
+2019-04-20T11:17:36.132: [WARN] Last message repeated 2 times
+2019-04-20T11:17:36.132: [WARN] ---
+2019-04-20T11:17:36.132: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:36.132: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:39.834: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:39.834: [WARN] ---
+2019-04-20T11:17:39.834: [WARN] Last message repeated 1 times
+2019-04-20T11:17:39.834: [WARN] ---
+2019-04-20T11:17:39.834: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:39.834: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:41.849: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:41.849: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:41.849: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:43.984: [WARN] ---
+2019-04-20T11:17:43.985: [WARN] Last message repeated 2 times
+2019-04-20T11:17:43.985: [WARN] ---
+2019-04-20T11:17:43.985: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:43.985: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:17:49.754: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:49.754: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:49.754: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:55.668: [WARN] ---
+2019-04-20T11:17:55.668: [WARN] Last message repeated 1 times
+2019-04-20T11:17:55.668: [WARN] ---
+2019-04-20T11:17:55.668: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:55.668: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:57.651: [WARN] ---
+2019-04-20T11:17:57.651: [WARN] Last message repeated 1 times
+2019-04-20T11:17:57.651: [WARN] ---
+2019-04-20T11:17:57.651: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:57.651: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:17:59.848: [WARN] ---
+2019-04-20T11:17:59.849: [WARN] Last message repeated 2 times
+2019-04-20T11:17:59.849: [WARN] ---
+2019-04-20T11:17:59.849: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:17:59.849: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:18:07.553: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:07.553: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:07.553: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:25.359: [WARN] ---
+2019-04-20T11:18:25.359: [WARN] Last message repeated 1 times
+2019-04-20T11:18:25.359: [WARN] ---
+2019-04-20T11:18:25.359: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:25.359: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:29.268: [WARN] ---
+2019-04-20T11:18:29.268: [WARN] Last message repeated 1 times
+2019-04-20T11:18:29.268: [WARN] ---
+2019-04-20T11:18:29.268: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:29.268: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:35.296: [WARN] ---
+2019-04-20T11:18:35.296: [WARN] Last message repeated 2 times
+2019-04-20T11:18:35.296: [WARN] ---
+2019-04-20T11:18:35.296: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:35.296: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:18:38.934: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:38.934: [WARN] ---
+2019-04-20T11:18:38.934: [WARN] Last message repeated 1 times
+2019-04-20T11:18:38.934: [WARN] ---
+2019-04-20T11:18:38.934: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:38.934: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:18:43.531: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:43.531: [WARN] ---
+2019-04-20T11:18:43.531: [WARN] Last message repeated 1 times
+2019-04-20T11:18:43.531: [WARN] ---
+2019-04-20T11:18:43.531: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:43.531: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:18:49.815: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:49.815: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:49.815: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:18:54.217: [WARN] ---
+2019-04-20T11:18:54.217: [WARN] Last message repeated 1 times
+2019-04-20T11:18:54.217: [WARN] ---
+2019-04-20T11:18:54.217: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:18:54.217: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:19:21.397: [WARN] ---
+2019-04-20T11:19:21.397: [WARN] Last message repeated 2 times
+2019-04-20T11:19:21.397: [WARN] ---
+2019-04-20T11:19:21.397: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:19:21.397: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:19:24.812: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:19:24.813: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:19:24.813: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:19:33.668: [WARN] ---
+2019-04-20T11:19:33.668: [WARN] Last message repeated 1 times
+2019-04-20T11:19:33.668: [WARN] ---
+2019-04-20T11:19:33.668: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:19:33.668: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:19:37.383: [WARN] ---
+2019-04-20T11:19:37.383: [WARN] Last message repeated 1 times
+2019-04-20T11:19:37.384: [WARN] ---
+2019-04-20T11:19:37.384: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:19:37.384: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:19:57.400: [WARN] ---
+2019-04-20T11:19:57.400: [WARN] Last message repeated 1 times
+2019-04-20T11:19:57.400: [WARN] ---
+2019-04-20T11:19:57.400: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:19:57.400: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:04.551: [WARN] ---
+2019-04-20T11:20:04.551: [WARN] Last message repeated 1 times
+2019-04-20T11:20:04.551: [WARN] ---
+2019-04-20T11:20:04.551: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:04.551: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:20.603: [WARN] ---
+2019-04-20T11:20:20.603: [WARN] Last message repeated 2 times
+2019-04-20T11:20:20.603: [WARN] ---
+2019-04-20T11:20:20.603: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:20.603: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:20:25.380: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:25.380: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:25.380: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:35.939: [WARN] ---
+2019-04-20T11:20:35.939: [WARN] Last message repeated 1 times
+2019-04-20T11:20:35.939: [WARN] ---
+2019-04-20T11:20:35.939: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:35.939: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:38.433: [WARN] ---
+2019-04-20T11:20:38.433: [WARN] Last message repeated 2 times
+2019-04-20T11:20:38.433: [WARN] ---
+2019-04-20T11:20:38.433: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:38.433: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:20:47.533: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:47.533: [WARN] ---
+2019-04-20T11:20:47.533: [WARN] Last message repeated 1 times
+2019-04-20T11:20:47.533: [WARN] ---
+2019-04-20T11:20:47.533: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:47.533: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:20:51.649: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:20:51.649: [WARN] ---
+2019-04-20T11:20:51.649: [WARN] Last message repeated 1 times
+2019-04-20T11:20:51.649: [WARN] ---
+2019-04-20T11:20:51.649: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:20:51.649: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:21:03.454: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:03.455: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:03.455: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:11.490: [WARN] ---
+2019-04-20T11:21:11.490: [WARN] Last message repeated 1 times
+2019-04-20T11:21:11.490: [WARN] ---
+2019-04-20T11:21:11.490: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:11.490: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:16.347: [WARN] ---
+2019-04-20T11:21:16.347: [WARN] Last message repeated 2 times
+2019-04-20T11:21:16.347: [WARN] ---
+2019-04-20T11:21:16.347: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:16.347: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:21:19.072: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:19.072: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:19.072: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:32.796: [WARN] ---
+2019-04-20T11:21:32.796: [WARN] Last message repeated 1 times
+2019-04-20T11:21:32.796: [WARN] ---
+2019-04-20T11:21:32.796: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:32.796: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:35.793: [WARN] ---
+2019-04-20T11:21:35.793: [WARN] Last message repeated 1 times
+2019-04-20T11:21:35.793: [WARN] ---
+2019-04-20T11:21:35.793: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:35.794: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:38.177: [WARN] ---
+2019-04-20T11:21:38.178: [WARN] Last message repeated 2 times
+2019-04-20T11:21:38.178: [WARN] ---
+2019-04-20T11:21:38.178: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:38.178: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:21:41.868: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:21:41.868: [WARN] ---
+2019-04-20T11:21:41.868: [WARN] Last message repeated 1 times
+2019-04-20T11:21:41.868: [WARN] ---
+2019-04-20T11:21:41.868: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:21:41.868: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04b2409700 challenge size mismatch!
+2019-04-20T11:26:54.750: [WARN] QProcess: Destroyed while process ("ping") is still running.
+2019-04-20T11:47:38.838: [WARN] ---
+2019-04-20T11:47:38.846: [WARN] Last message repeated 256 times
+2019-04-20T11:47:38.846: [WARN] ---
+2019-04-20T11:47:38.846: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:47:38.846: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:47:38.846: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:47:43.799: [WARN] QProcess: Destroyed while process ("ping") is still running.
+2019-04-20T11:48:00.882: [WARN] ---
+2019-04-20T11:48:00.882: [WARN] Last message repeated 21 times
+2019-04-20T11:48:00.882: [WARN] ---
+2019-04-20T11:48:00.882: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:48:00.883: [WARN] ---
+2019-04-20T11:48:00.883: [WARN] Last message repeated 1 times
+2019-04-20T11:48:00.883: [WARN] ---
+2019-04-20T11:48:00.883: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:48:00.883: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f049c7f0700 challenge size mismatch!
+2019-04-20T11:48:06.822: [WARN] QProcess: Destroyed while process ("ping") is still running.
+2019-04-20T11:49:03.343: [WARN] ---
+2019-04-20T11:49:03.350: [WARN] Last message repeated 65 times
+2019-04-20T11:49:03.350: [WARN] ---
+2019-04-20T11:49:03.350: [WARN] VariantArrayMessage::receive(): could not read message size!
+2019-04-20T11:49:03.350: [WARN] ---
+2019-04-20T11:49:03.350: [WARN] Last message repeated 1 times
+2019-04-20T11:49:03.350: [WARN] ---
+2019-04-20T11:49:03.350: [WARN] VariantStream: none or invalid data read
+2019-04-20T11:49:03.350: [ERR] static void VncConnection::handleSecTypeVeyon(rfbClient*) 0x7f04987e8700 challenge size mismatch!
+2019-04-20T11:49:04.911: [WARN] QProcess: Destroyed while process ("ping") is still running.

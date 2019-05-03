@@ -1,0 +1,52 @@
+---
+- name: Testing
+  hosts: all
+  become: yes
+  tasks:
+    - name: Copy over veyon binary
+      win_copy: 
+        src: 'files/veyon-4.1.8.0-win64-setup.exe'
+        dest: '%HOMEDRIVE%/Windows/Temp/veyon.exe'
+    - name: Copy over veyon config
+      win_copy:
+        src: 'files/config.json'
+        dest: 'C:/Windows/Temp/config.json'
+    - name: Copy over veyon public keys
+      win_copy:
+        src: 'files/student_public_key.pem'
+        dest: '%HOMEDRIVE%/Windows/Temp/student_public_key.pem'
+    - name: Install veyon 
+      win_package:
+        path: C:\Windows\Temp\veyon.exe
+        product_id: veyon
+        arguments: /S /NoMaster /ApplyConfig=C:/Windows/Temp/config.json
+        state: present
+    - name: Removew keys if they exist #add ignore fail 
+      win_command: "veyon-ctl.exe authkeys delete student/public"
+      args:
+        chdir: "C:/Program Files/Veyon"
+      ignore_errors: yes
+    - name: Import public Key 
+      win_command: "veyon-ctl.exe authkeys import student/public C:/Windows/Temp/student_public_key.pem"
+      args:
+        chdir: "C:/Program Files/Veyon"
+    - name: Import config again just in case 
+      win_command: "veyon-ctl.exe config import C:/Windows/Temp/config.json"
+      args:
+        chdir: "C:/Program Files/Veyon"
+    - name: Restart veyon service 
+      win_command: "veyon-ctl.exe service restart"
+      args:
+        chdir: "C:/Program Files/Veyon"
+    - name: Remove unessary files
+      win_file:
+        name: "{{ item }}"
+        state: absent
+      with_items:
+        - "%HOMEDRIVE%/Program Files/Veyon/veyon-configurator.exe"
+        - "%HOMEDRIVE%/Program Files/Veyon/uninstall.exe"
+        - "%HOMEDRIVE%/Program Files/Veyon/README.TXT"
+        - "%HOMEDRIVE%/Program Files/Veyon/Veyon website.html"
+        - "%HOMEDRIVE%/Windows/Temp/veyon.exe"
+        - "%HOMEDRIVE%/Windows/Temp/config.json"
+        - "%HOMEDRIVE%/Windows/Temp/student_public_key.pem"

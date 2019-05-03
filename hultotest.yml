@@ -1,0 +1,6 @@
+---
+- name: Testing
+  hosts: win_clients
+  tasks:
+    - name: Copy over
+      win_ping:

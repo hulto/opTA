@@ -1,0 +1,263 @@
+{
+    "AccessControl": {
+        "AuthorizedUserGroups": null,
+        "UserGroupsBackend": "2917cdeb-ac13-4099-8715-20368254a367"
+    },
+    "Authentication": {
+        "Method": "1",
+        "PrivateKeyBaseDir": "%GLOBALAPPDATA%/keys/private",
+        "PublicKeyBaseDir": "%GLOBALAPPDATA%/keys/public"
+    },
+    "BuiltinDirectory": {
+        "NetworkObjects": {
+            "JsonStoreArray": [
+                {
+                    "Name": "Team1",
+                    "Type": 2,
+                    "Uid": "{145b2859-fc0f-4ebd-85dd-8e54ad09ed17}"
+                },
+                {
+                    "HostAddress": "10.2.1.1",
+                    "Name": "troy - AD/DNS",
+                    "ParentUid": "{145b2859-fc0f-4ebd-85dd-8e54ad09ed17}",
+                    "Type": 3,
+                    "Uid": "{851bf751-c015-4587-89be-49f98eee3953}"
+                },
+                {
+                    "Name": "Testing",
+                    "Type": 2,
+                    "Uid": "{dab5c0f3-8759-43c0-b2e9-6a429b51838b}"
+                },
+                {
+                    "HostAddress": "10.0.20.104",
+                    "Name": "WinTest",
+                    "ParentUid": "{dab5c0f3-8759-43c0-b2e9-6a429b51838b}",
+                    "Type": 3,
+                    "Uid": "{5dfafb83-6054-40a2-a76b-7eced4e28cb8}"
+                },
+                {
+                    "HostAddress": "10.2.1.3",
+                    "Name": "chad - MSSQL",
+                    "ParentUid": "{145b2859-fc0f-4ebd-85dd-8e54ad09ed17}",
+                    "Type": 3,
+                    "Uid": "{5b194a42-38c5-4803-8449-282e7ee237cd}"
+                },
+                {
+                    "Name": "Team2",
+                    "Type": 2,
+                    "Uid": "{39e9af23-a4af-4c1b-990e-6cd3fa918c20}"
+                },
+                {
+                    "Name": "Team3",
+                    "Type": 2,
+                    "Uid": "{698a3fed-3990-43d2-9a46-4eb35c58668a}"
+                },
+                {
+                    "Name": "Team4",
+                    "Type": 2,
+                    "Uid": "{0bae17a8-8d40-4dfd-91ad-6b9c9b1cc197}"
+                },
+                {
+                    "Name": "Team5",
+                    "Type": 2,
+                    "Uid": "{e2ac001c-547e-48df-820f-975f5e0a7960}"
+                },
+                {
+                    "Name": "Team6",
+                    "Type": 2,
+                    "Uid": "{c70be612-b524-4c01-8a6b-291c605b5ec9}"
+                },
+                {
+                    "Name": "Team7",
+                    "Type": 2,
+                    "Uid": "{60baebdb-cd08-472b-b39a-3e09c59df2c2}"
+                },
+                {
+                    "Name": "Team8",
+                    "Type": 2,
+                    "Uid": "{375beedb-388a-42b2-9bbe-2f9ef9c449b4}"
+                },
+                {
+                    "Name": "Team9",
+                    "Type": 2,
+                    "Uid": "{699ed329-be53-41f6-9be1-59fe535dff1b}"
+                },
+                {
+                    "Name": "Team10",
+                    "Type": 2,
+                    "Uid": "{5481a910-86bb-4f96-bf05-7ae6d35189b1}"
+                },
+                {
+                    "Name": "Team11",
+                    "Type": 2,
+                    "Uid": "{edb155f3-7d1f-4c75-9206-5d34f387c2e8}"
+                },
+                {
+                    "Name": "Team12",
+                    "Type": 2,
+                    "Uid": "{697213c9-ff75-4392-aacd-42113a41fe95}"
+                },
+                {
+                    "Name": "Team13",
+                    "Type": 2,
+                    "Uid": "{4df890cc-709a-4731-965d-1115502fdb3b}"
+                },
+                {
+                    "Name": "Team14",
+                    "Type": 2,
+                    "Uid": "{6d8d6bf3-782f-47b9-a3ff-da72dc4afb6d}"
+                },
+                {
+                    "Name": "troy",
+                    "ParentUid": "{39e9af23-a4af-4c1b-990e-6cd3fa918c20}",
+                    "Type": 3,
+                    "Uid": "{839680d3-6c43-4391-9442-c67498dfd06f}"
+                },
+                {
+                    "Name": "chad",
+                    "ParentUid": "{39e9af23-a4af-4c1b-990e-6cd3fa918c20}",
+                    "Type": 3,
+                    "Uid": "{5288e13f-32c8-46a6-8fa4-d3839f776635}"
+                },
+                {
+                    "Name": "troy",
+                    "ParentUid": "{698a3fed-3990-43d2-9a46-4eb35c58668a}",
+                    "Type": 3,
+                    "Uid": "{7eafc852-b844-44c0-a2fb-8e00b258380c}"
+                },
+                {
+                    "Name": "chad",
+                    "ParentUid": "{698a3fed-3990-43d2-9a46-4eb35c58668a}",
+                    "Type": 3,
+                    "Uid": "{792cf2d3-8c1a-4217-a63f-09fd7633489a}"
+                },
+                {
+                    "Name": "troy",
+                    "ParentUid": "{0bae17a8-8d40-4dfd-91ad-6b9c9b1cc197}",
+                    "Type": 3,
+                    "Uid": "{6bb9556d-de1f-4065-a3c9-12fbff5ec139}"
+                },
+                {
+                    "Name": "chad",
+                    "ParentUid": "{0bae17a8-8d40-4dfd-91ad-6b9c9b1cc197}",
+                    "Type": 3,
+                    "Uid": "{4f40f085-a293-4ccf-8210-ae216e72aefc}"
+                },
+                {
+                    "Name": "troy",
+                    "ParentUid": "{e2ac001c-547e-48df-820f-975f5e0a7960}",
+                    "Type": 3,
+                    "Uid": "{51e1c742-55ef-4916-8795-04f1bf8a28c4}"
+                },
+                {
+                    "Name": "chad",
+                    "ParentUid": "{e2ac001c-547e-48df-820f-975f5e0a7960}",
+                    "Type": 3,
+                    "Uid": "{aad3ee8a-829d-4b4c-9f26-429a68626916}"
+                },
+                {
+                    "Name": "troy",
+                    "ParentUid": "{c70be612-b524-4c01-8a6b-291c605b5ec9}",
+                    "Type": 3,
+                    "Uid": "{80483bb6-27a7-4c22-a7d8-43ce85c56144}"
+                },
+                {
+                    "Name": "chad",
+                    "ParentUid": "{c70be612-b524-4c01-8a6b-291c605b5ec9}",
+                    "Type": 3,
+                    "Uid": "{86fb770c-203c-4198-bea8-3c65991fe8f7}"
+                },
+                {
+                    "HostAddress": "10.2.1.3",
+                    "Name": "client",
+                    "ParentUid": "{145b2859-fc0f-4ebd-85dd-8e54ad09ed17}",
+                    "Type": 3,
+                    "Uid": "52acb80d-9b08-3704-ad27-1f8775c66b9e"
+                },
+                {
+                    "HostAddress": "10.2.1.1",
+                    "Name": "client",
+                    "ParentUid": "{145b2859-fc0f-4ebd-85dd-8e54ad09ed17}",
+                    "Type": 3,
+                    "Uid": "7ce96a39-1d7d-3202-a6da-5f430325d171"
+                }
+            ]
+        }
+    },
+    "Core": {
+        "InstallationID": "1b0d03b8-57b9-42da-b15a-ab28069b3b8f",
+        "PluginVersions": {
+            "JsonStoreObject": {
+                "{14bacaaa-ebe5-449c-b881-5b382f952571}": "1.1",
+                "{1b08265b-348f-4978-acaa-45d4f6b90bd9}": "1.1",
+                "{1bdb0d1c-f8eb-4d21-a093-d555a10f3975}": "1.1",
+                "{2917cdeb-ac13-4099-8715-20368254a367}": "1.1",
+                "{2ad98ccb-e9a5-43ef-8c4c-876ac5efbcb1}": "1.1",
+                "{387a0c43-1355-4ff6-9e1f-d098e9ce5127}": "1.1",
+                "{39d7a07f-94db-4912-aa1a-c4df8aee3879}": "1.1",
+                "{4122e8ca-b617-4e36-b851-8e050ed2d82e}": "1.1",
+                "{4790bad8-4c56-40d5-8361-099a68f0c24b}": "1.1",
+                "{63928a8a-4c51-4bfd-888e-9e13c6f3907a}": "1.1",
+                "{67dfc1c1-8f37-4539-a298-16e74e34fd8b}": "1.1",
+                "{6f0a491e-c1c6-4338-8244-f823b0bf8670}": "1.1",
+                "{85f6c631-e75a-4c78-8cb2-a7f3f502015a}": "1.1",
+                "{8ae6668b-9c12-4b29-9bfc-ff89f6604164}": "1.1",
+                "{a54ee018-42bf-4569-90c7-0d8470125ccf}": "1.1",
+                "{b47bcae0-24ff-4bf5-869c-484d64af5c4c}": "1.1",
+                "{ee322521-f4fb-482d-b082-82a79003afa7}": "1.1"
+            }
+        }
+    },
+    "Demo": {
+        "FramebufferUpdateInterval": "100",
+        "KeyFrameInterval": "10",
+        "MemoryLimit": "128"
+    },
+    "Directories": {
+        "Screenshots": "%APPDATA%/Screenshots",
+        "UserConfiguration": "%APPDATA%/Config"
+    },
+    "ExternalVncServer": {
+        "ServerPort": "5900"
+    },
+    "LDAP": {
+        "ServerPort": "389"
+    },
+    "Logging": {
+        "LogFileDirectory": "$TEMP",
+        "LogFileRotationCount": 10,
+        "LogFileRotationEnabled": false,
+        "LogFileSizeLimit": 100,
+        "LogFileSizeLimitEnabled": false,
+        "LogLevel": 4,
+        "LogToStdErr": true,
+        "LogToSystem": false
+    },
+    "Master": {
+        "ComputerMonitoringBackgroundColor": "#ffffff",
+        "ComputerMonitoringTextColor": "#000000",
+        "ComputerMonitoringUpdateInterval": 1000
+    },
+    "Network": {
+        "DemoServerPort": 11400,
+        "FeatureWorkerManagerPort": 11300,
+        "FirewallExceptionEnabled": true,
+        "PrimaryServicePort": 11100,
+        "VncServerPort": 11200
+    },
+    "NetworkObjectDirectory": {
+        "Plugin": "14bacaaa-ebe5-449c-b881-5b382f952571",
+        "UpdateInterval": 60
+    },
+    "Service": {
+        "Autostart": true,
+        "FailedAuthenticationNotifications": true,
+        "HideTrayIcon": false,
+        "RemoteConnectionNotifications": false,
+        "SoftwareSASEnabled": true
+    },
+    "UI": {
+        "ApplicationName": "",
+        "Language": ""
+    }
+}
